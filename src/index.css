@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #d1d0bb;
+}
+root{
+    margin: 0;
+}
+.nav{
+    background: rgba(239, 241, 241, 0.436);
+    background: linear-gradient(0deg, rgba(239, 241, 241, 0.215) 0%, rgba(239, 241, 241, 0.215) 100%);
+}
+.tint{
+    background-color: rgb(0 0 0 / 0%);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.2) 0, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 40%);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
