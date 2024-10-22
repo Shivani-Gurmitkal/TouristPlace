@@ -41,7 +41,7 @@ function App(){
     return (
         <>
         <TouristPlace/>
-        <div className="flex gap-4 mt-20 justify-center">
+        <div className="flex gap-4 mt-20 justify-center mb-20">
             {
         touristPlaces.map(places=><Card img={places.img} name={places.placeName} desc={places.desc} visit={places.whenToVisit} price={places.price} rating={places.ratings}/> )
             }
